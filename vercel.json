@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/shakti-logo\\.png",
+      "dest": "/public/shakti-logo.png"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "server.js"
+    }
+  ]
+}
