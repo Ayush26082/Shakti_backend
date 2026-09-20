@@ -1,0 +1,15 @@
+{
+  "name": "shakti-graphic-solution-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Shakti Graphic Solution landing page: saves quote requests and emails the owner + an auto-reply to the customer.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.14"
+  }
+}
